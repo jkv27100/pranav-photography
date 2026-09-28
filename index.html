@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pranav — Photographer, Dublin</title>
+<meta name="description" content="Pranav is a photographer based in Dublin, Ireland, specialising in portrait, editorial and family photography.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="loader" id="loader" aria-hidden="true"><span>PRANAV</span></div>
+
+  <header class="site-header" id="siteHeader">
+    <a href="#top" class="logo">PRANAV</a>
+    <nav class="main-nav" id="mainNav">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero-media">
+        <img src="assets/img/full/p048.jpg" alt="" class="hero-img">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <p class="hero-eyebrow reveal">Photographer &mdash; Based in Dublin</p>
+        <h1 class="hero-title">
+          <span class="reveal-line"><span class="reveal-line-inner">Pranav</span></span>
+        </h1>
+        <p class="hero-sub reveal">Portraits. Editorial. Life, unstaged.</p>
+        <a href="#work" class="hero-cta reveal">
+          <span>View the work</span>
+        </a>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span></span></div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="section-head">
+        <p class="section-eyebrow reveal">Selected Work</p>
+        <h2 class="section-title reveal">Portfolio</h2>
+      </div>
+
+      <div class="filter-bar reveal">
+        <button class="filter-btn is-active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="portrait">Portraits</button>
+        <button class="filter-btn" data-filter="editorial">Editorial</button>
+        <button class="filter-btn" data-filter="family">Family</button>
+      </div>
+
+      <div class="grid" id="grid">
+        <!-- GALLERY_START -->
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p001.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p001.jpg" alt="Pranav photography — Family" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p003.jpg" data-w="1124" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p003.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1124" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p004.jpg" data-w="1124" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p004.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1124" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p005.jpg" data-w="1124" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p005.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1124" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p006.jpg" data-w="1124" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p006.jpg" alt="Pranav photography — Family" loading="lazy" width="1124" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p007.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p007.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p008.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p008.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="landscape">
+          <button class="grid-item-btn" data-full="assets/img/full/p009.jpg" data-w="2000" data-h="1124" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p009.jpg" alt="Pranav photography — Editorial" loading="lazy" width="2000" height="1124">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p010.jpg" data-w="1124" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p010.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1124" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p011.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p011.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p012.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p012.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p013.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p013.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p014.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p014.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p015.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p015.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p016.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p016.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p017.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p017.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p018.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p018.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p019.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p019.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p020.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p020.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p021.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p021.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p022.jpg" data-w="2000" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p022.jpg" alt="Pranav photography — Portraits" loading="lazy" width="2000" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p023.jpg" data-w="2000" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p023.jpg" alt="Pranav photography — Portraits" loading="lazy" width="2000" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p024.jpg" data-w="2000" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p024.jpg" alt="Pranav photography — Portraits" loading="lazy" width="2000" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p025.jpg" data-w="2000" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p025.jpg" alt="Pranav photography — Portraits" loading="lazy" width="2000" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p026.jpg" data-w="2000" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p026.jpg" alt="Pranav photography — Portraits" loading="lazy" width="2000" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p027.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p027.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p028.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p028.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p029.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p029.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p030.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p030.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p031.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p031.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p032.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p032.jpg" alt="Pranav photography — Family" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p033.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p033.jpg" alt="Pranav photography — Family" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p034.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p034.jpg" alt="Pranav photography — Family" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p035.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p035.jpg" alt="Pranav photography — Family" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p036.jpg" data-w="1500" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p036.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1500" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p037.jpg" data-w="1500" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p037.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1500" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p038.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p038.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p039.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p039.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="portrait" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p040.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Portraits">
+            <img src="assets/img/full/p040.jpg" alt="Pranav photography — Portraits" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p041.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p041.jpg" alt="Pranav photography — Family" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p042.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p042.jpg" alt="Pranav photography — Family" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="landscape">
+          <button class="grid-item-btn" data-full="assets/img/full/p043.jpg" data-w="2000" data-h="1600" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p043.jpg" alt="Pranav photography — Editorial" loading="lazy" width="2000" height="1600">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p044.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p044.jpg" alt="Pranav photography — Family" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="family" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p045.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Family">
+            <img src="assets/img/full/p045.jpg" alt="Pranav photography — Family" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="landscape">
+          <button class="grid-item-btn" data-full="assets/img/full/p046.jpg" data-w="2000" data-h="1600" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p046.jpg" alt="Pranav photography — Editorial" loading="lazy" width="2000" height="1600">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="landscape">
+          <button class="grid-item-btn" data-full="assets/img/full/p047.jpg" data-w="2000" data-h="1600" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p047.jpg" alt="Pranav photography — Editorial" loading="lazy" width="2000" height="1600">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p048.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p048.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p049.jpg" data-w="1600" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p049.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1600" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p050.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p050.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <figure class="grid-item reveal" data-category="editorial" data-orientation="portrait">
+          <button class="grid-item-btn" data-full="assets/img/full/p051.jpg" data-w="1333" data-h="2000" aria-label="Open photo in Editorial">
+            <img src="assets/img/full/p051.jpg" alt="Pranav photography — Editorial" loading="lazy" width="1333" height="2000">
+          </button>
+        </figure>
+        <!-- GALLERY_END -->
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-media reveal">
+        <img src="assets/img/full/p040.jpg" alt="Pranav, photographer" loading="lazy">
+      </div>
+      <div class="about-copy">
+        <p class="section-eyebrow reveal">About</p>
+        <h2 class="section-title reveal">Hi, I&rsquo;m Pranav.</h2>
+        <p class="reveal">
+          I&rsquo;m a photographer based in Dublin, working across portrait, editorial
+          and family photography. I&rsquo;m drawn to quiet, honest moments &mdash; the
+          look just before a smile, the light that only lasts a minute, the small
+          gestures that say more than a pose ever could.
+        </p>
+        <p class="reveal">
+          Every session starts as a conversation, not a checklist. Whether it&rsquo;s
+          a studio portrait, an editorial concept, or an afternoon with your family,
+          my aim is the same: photographs that still feel true to you years from now.
+        </p>
+        <a href="#contact" class="text-link reveal"><span>Let&rsquo;s work together</span></a>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="contact-inner">
+        <p class="section-eyebrow reveal">Get in touch</p>
+        <h2 class="section-title reveal">Let&rsquo;s create<br>something together.</h2>
+        <div class="contact-links reveal">
+          <a href="mailto:pranavkvmp@gmail.com" class="contact-email">pranavkvmp@gmail.com</a>
+          <div class="socials">
+            <a href="#" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+        <p class="contact-location reveal">Dublin, Ireland &mdash; available for travel</p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Pranav Photography. Dublin, Ireland.</p>
+  </footer>
+
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous photo">&#8249;</button>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next photo">&#8250;</button>
+    <div class="lightbox-stage">
+      <img src="" alt="" id="lightboxImg">
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
